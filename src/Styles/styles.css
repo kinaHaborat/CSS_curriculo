@@ -1,3 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap%27");
 * {
   box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+/*Spacing/Positioning*/
+.flexPos {
+  display: flex;
+}
+
+/*General Text Colors*/
+.titleColor {
+  color: #fdcb6e;
+}
+.textColorMain {
+  color: white;
+}
+
+/*Buttons Styles*/
+.mainButonStyle {
+  border: none;
+  background-color: white;
+  font-size: 20px;
+  padding: 7px 7px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  transition-duration: 0.6s;
+  margin: 60px 0px 10px 0px;
+}
+/*Buttons Hover*/
+.btn:hover {
+  transition-duration: 0.6s;
+  background-color: #fdcb6e;
+}
+
+/*header Styles*/
+.header {
+  align-items: center;
+  background-color: #2d3436;
+  padding: 50px 0px;
+  text-align: center;
+}
+/*Skill Section Styles*/
+.skillsShow {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.skillIcons {
+  width: 70px;
+  height: auto;
+}
+.skillsShow div {
+  margin: 40px 40px;
+}
+/*About me Section*/
+.aboutSection {
+  background-color: #2d3436;
+  display: flex;
+}
+.infoDiv {
+  margin: auto 40px;
+  color: white;
+  height: 80%;
+  padding-left: 100px;
+}
+.infoDiv p {
+  text-justify: inter-word;
+  font-weight: 500;
+}
+.imgDiv {
+  margin-left: 30px;
+}
+.imgDiv img {
+  height: fit-content;
+}
+
+/*academy me Section*/
+.studiesSection {
+  background-color: #dfe6e9;
+  text-align: center;
+  justify-content: center;
+  padding: 30px 0px;
+}
+.courseRow {
+  margin: 60px 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.courseRow div {
+  width: 400px;
+}
+
+.courseRow img {
+  width: 70px;
+  height: 70px;
+}
+
+/*Career me Section*/
+
+.carrerColn {
+  background-color: #2d3436;
+  padding: 40px 0px;
+}
+.carrerColn h2 {
+  text-align: center;
+}
+.carrerAllRow {
+  color: white;
+  margin: 0px 50px;
+}
+.carrerRow {
+  justify-content: center;
+  margin: 0px 50px;
+  display: flex;
+}
+.carrerRow h3 {
+  color: #fdcb6e;
+}
+.carrerRow div {
+  margin: 25px 30px;
+}
+.carrerRow img {
+  margin: 16px 30px;
+  width: 70px;
+  height: 70px;
+}
+.socials {
+  padding: 50px 0px;
+  margin: 0px 30px;
+  text-align: center;
+  height: 200px;
+}
+.socials img {
+  margin: 20px 40px;
+  width: 60px;
+  height: 60px;
+}
+@media screen and (max-width: 600px) {
+  body {
+    width: 100%;
+  }
+
+  /*header Styles*/
+  .aboutSection {
+    display: flex;
+    flex-direction: column;
+  }
+  .infoDiv {
+    margin: auto 40px;
+    color: white;
+    height: 80%;
+    padding-left: 0px;
+  }
+  .imgDiv {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .imgDiv img {
+    width: 100%;
+    margin-left: 0px;
+  }
+  /*Skill Section Styles*/
+  .skillsShow {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    display: block;
+  }
+
+  /*academy me Section*/
+  .courseRow {
+    margin: 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+  .courseRow div {
+    width: 100%;
+  }
+  /*Career me Section*/
+
+  .carrerAllRow {
+    color: white;
+    margin: 0px 0px;
+  }
+  .carrerRow {
+    justify-content: center;
+    margin: 0px 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .carrerRow img {
+    margin: auto;
+    width: 70px;
+    height: 70px;
+  }
+  /*Career me Section*/
+
+  .socials {
+    padding: 50px 0px;
+    margin: 0px 0px;
+    text-align: center;
+    height: 200px;
+  }
 }

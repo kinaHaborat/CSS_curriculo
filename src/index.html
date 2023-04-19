@@ -1,69 +1,154 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Page Title</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-  </head>
 
-  <body>
-    <!-- Header -->
-    <div class="header">
-      <h1>O meu curriculo</h1>
-      <p>With a <b>flexible</b> layout.</p>
+<head>
+  <title>Page Title</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/src/Styles/styles.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <div class="header">
+    <h1 class="titleColor">Tiago Baptista</h1>
+    <div>
+      <span class="textColorMain">|</span>
+      <span class="textColorMain">Front-end Developer</span>
+      <span class="textColorMain">|</span>
+      <span class="textColorMain">3D specialist</span>
+      <span class="textColorMain">|</span>
+      <span class="textColorMain">Graphic Designer</span>
+      <span class="textColorMain">|</span>
     </div>
+    <button class="mainButonStyle btn">Hire me</button>
+  </div>
 
-    <!-- Navigation Bar -->
-    <div class="skillsShow">
-      <a href="#">Link</a>
-      <a href="#">Link</a>
-      <a href="#">Link</a>
-      <a href="#">Link</a>
+  <!-- Skills Bar -->
+  <div class="skillsShow flexPos">
+    <div class="">
+      <img class="skillIcons" src="resorces/icons/html.png" />
+      <img class="skillIcons" src="resorces/icons/css-3.png" />
+      <img class="skillIcons" src="resorces/icons/js.png" />
     </div>
+    <div class="">
+      <img class="skillIcons" src="resorces/icons/Blender_logo_no_text.svg.png" />
+      <img class="skillIcons" src="resorces/icons/substance-3d-painter.png" />
+      <img class="skillIcons" src="resorces/icons/sketchup.png" />
+    </div>
+    <div class="">
+      <img class="skillIcons" src="resorces/icons/illustrator.png" />
+      <img class="skillIcons" src="resorces/icons/xd.png" />
+      <img class="skillIcons" src="resorces/icons/photoshop.png" />
+    </div>
+  </div>
 
-    <!-- The flexible grid (content) -->
-    <div class="row">
-      <div class="side">
-        <h2>About Me</h2>
-        <h5>Nome</h5>
-        <div class="fakeimg">Image</div>
-        <p>Sobre mim....</p>
-        <h3>As minhas capacidades tecnicas</h3>
-        <p>Lorem ipsum dolor sit ame.</p>
-        <div class="fakeimg">Image</div>
-        <br />
-        <div class="fakeimg">Image</div>
-        <br />
-        <div class="fakeimg">Image</div>
+  <!-- The flexible grid (content) -->
+  <!-- About me -->
+  <div class="aboutSection">
+    <div class="imgDiv">
+      <img src="/src/resorces/images/me.jpg" />
+    </div>
+    <div class="infoDiv">
+      <h2 class="titleColor">About Me</h2>
+      <h3 class="titleColor">Tiago Filipe Craveiro Simões Baptista</h5>
+        <p class="text">My name is Tiago Baptista, I'm 27 years old and I have a degree in multimedia.<br>
+          As my academic career progressed, I developed a taste for 3D programming and modeling.<br>
+          After graduating, I started my professional career as an interior designer intern for a furniture store.<br>
+          After the internship, I decided that I would like to position myself in another area more related to my
+          course,<br> so I started my career change process, and at the moment I am participating in a bootcamp for
+          Front-end Developer. </p>
+    </div>
+  </div>
+  <!-- Courses -->
+  <div class="studiesSection">
+    <h2>Academic Path</h2>
+    <div class="courseRow">
+      <div>
+        <img src="resorces/icons/mortarboard.png">
+        <div>
+          <h3>Escola Secundaria Jose Falcão</h3>
+          <h4>Course: Multimedia Technician</h4>
+        </div>
       </div>
-      <div class="main">
-        <h2>Experiencia</h2>
-        <h5>Title description, Dec 7, 2017</h5>
-        <div class="fakeimg">Image</div>
-        <p>Some text..</p>
-        <p>
-          Sunt in culpa qui officia deserunt mollit anim id est laborum
-          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-          exercitation ullamco.
-        </p>
-        <br />
-        <h2>Experiencia</h2>
-        <h5>Title description, Sep 2, 2017</h5>
-        <div class="fakeimg">Image</div>
-        <p>Some text..</p>
-        <p>
-          Sunt in culpa qui officia deserunt mollit anim id est laborum
-          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-          exercitation ullamco.
-        </p>
+      <div>
+        <img src="resorces/icons/mortarboard.png">
+        <div>
+          <h3>Instituto Superior Miguel Torga</h3>
+          <h4>Course: Multimedia Degree</h4>
+        </div>
+      </div>
+      <div>
+        <img src="resorces/icons/mortarboard.png">
+        <div>
+          <h3>Udemy</h3>
+          <h4>Curso: Interior esign</h4>
+        </div>
       </div>
     </div>
+  </div>
 
-    <!-- Footer -->
-    <div class="footer">
-      <h2>Redes sociais</h2>
+  <!-- Carreer -->
+  <div class="carrerColn">
+    <h2 class="titleColor">Career</h2>
+    <div class="carrerAllRow">
+      <div class="carrerRow">
+        <img src="resorces/icons/254681782_894924947835812_4700108568956621614_n.png">
+        <div>
+          <h3>Curricular internship: Graphic Designer</h3>
+          <h4>Company: Ifree Imagem</h4>
+        </div>
+        <div>
+          <ul>
+            <li>Production of baptism and wedding albums</li>
+            <li>Digital image editing</li>
+            <li>Video Editing</li>
+          </ul>
+        </div>
+      </div>
     </div>
-  </body>
+    <div class="carrerAllRow">
+      <div class="carrerRow">
+        <img src="resorces/icons/254681782_894924947835812_4700108568956621614_n.png">
+        <div>
+          <h3>Professional internship: Miniature Designer</h3>
+          <h4>Company: Eurocomponentes</h4>
+        </div>
+        <div>
+          <ul>
+            <li>Production of decals to be applied to miniatures</li>
+            <li>Crafts related to miniatures</li>
+            <li>Customer Services</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="carrerAllRow">
+      <div class="carrerRow">
+        <img src="resorces/icons/254681782_894924947835812_4700108568956621614_n.png">
+        <div>
+          <h3>Professional internship: Interior Designer</h3>
+          <h4>Company: Móveis Anilar</h4>
+        </div>
+        <div>
+          <ul>
+            <li>Design photorealistic interiors</li>
+            <li>Social media management</li>
+            <li>Customer Services</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="socials">
+    <a href="https://www.facebook.com/tbaptista27"><img src="resorces/icons/FB.svg"></a>
+    <a href="www.linkedin.com/in/tiagobmédia"></a><img src="resorces/icons/IN.svg"></a>
+    <a href="https://www.artstation.com/tbm_3dart"></a><img src="resorces/icons/artstation.svg"></a>
+    <a href="https://www.behance.net/tbaptistae23d"></a><img src="resorces/icons/BE.svg"></a>
+
+  </div>
+</body>
+
 </html>
